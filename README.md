@@ -26,8 +26,9 @@ Mi objetivo es construir mi portafolio profesional como Front-End, QA Manual y A
 
 ## 🎨 Vista previa del proyecto
 
-_(Puedes colocar aquí una imagen del proyecto si quieres, más adelante te enseño cómo hacerlo)_  
-Por ahora puedes poner algo así:  
+<p align="center">
+  <img src="assets/vista-previa.png" width="600" alt="Vista previa del proyecto">
+</p>
 > ✨ *Proyecto realizado con tonos pastel para transmitir suavidad, calma y estética agradable.*
 
 ---
