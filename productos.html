@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Productos | Isabel's Restaurant</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/91040.jpg">
+</head>
+
+<body id="fondoproductos">
+    <header>
+
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fst-italic" href="#">Delicias Isabel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="offcanvas offcanvas-end text-info"  style="background-color: blanchedalmond;"  tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">MENUS</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-uppercase" aria-current="page"
+                                    href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="contactanos.html">Contactanos</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Recetas Nuevas
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="tortal.html">Torta de limon</a></li>
+                                    <li><a class="dropdown-item" href="tortab.html">Torta de banano</a></li>
+                                    <li><a class="dropdown-item" href="tortaz.html">Torta de zanahoria</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <h1 class="productostitulo">Nuestros Productos</h1>
+
+
+        <div class="fotosproductos">
+
+            <ul>
+                <li>
+                    <img class="hoverimg" src="img/FRESAS CON CREMA.jpg" alt="" width="200px" height="150px"
+                        onclick="cambiarImg('FRESAS CON CREMA')">
+                </li>
+                <li>
+                    <img class="hoverimg" src="img/ENSALADA DE FRUTAS.jpg" alt="" width="200px" height="150px"
+                        onclick="cambiarImg('ENSALADA DE FRUTAS')">
+                </li>
+                <li>
+                    <img class="hoverimg" src="img/CREMA DULCE DE LIMON.jpg" alt="" width="200px" height="150px"
+                        onclick="cambiarImg('CREMA DULCE DE LIMON')">
+                </li>
+                <li>
+                    <img class="hoverimg" src="img/TORTA DE MILO.jpg" alt="" width="200px" height="150px"
+                        onclick="cambiarImg('TORTA DE MILO')">
+                </li>
+                <li>
+                    <img class="hoverimg" src="img/ARROZ CON LECHE.jpg" alt="" width="200px" height="150px"
+                        onclick="cambiarImg('ARROZ CON LECHE')">
+                </li>
+                <li>
+                    <img class="hoverimg" src="img/TORTA DE TRES LECHES.JPG" alt="" width="200px" height="150px"
+                        onclick="cambiarImg('TORTA DE TRES LECHES')">
+                </li>
+            </ul>
+
+            <h2 class="text-center">FRESAS CON CREMA</h2>
+
+
+        </div>
+
+        <div class="grandefotos">
+            <img src="img/FRESAS CON CREMA.jpg" alt="" width="800px" height="600px" id="grande">
+
+        </div>
+
+
+        <div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th style="background-color: antiquewhite;" scope="col">NOMBRE PRODUCTO</th>
+                        <th style="background-color: antiquewhite;" scope="col">PRECIO</th>
+                        <th style="background-color: antiquewhite;" scope="col">INGREDIENTES</th>
+                        <th style="background-color: antiquewhite;" scope="col">CANTIDAD</th>
+                        <th style="background-color: antiquewhite;" scope="col">AÑADIR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FRESAS CON CREMA</td>
+                        <td>$10.500</td>
+                        <td>Fresas frescas, crema dulce de la casa, chips de chocolate</td>
+                        <td class="cantidad">0</td>
+                        <td><button class="btn-aumentar">Da clic aqui para añadir</button>
+                            <button class="btn-disminuir">Da clic aqui para quitar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ENSALADA DE FRUTAS</td>
+                        <td>$15.000</td>
+                        <td>Papaya, banano, manzanas, guanabana, mora, fresas, galleta, helado, crema de la casa</td>
+                        <td class="cantidad">0</td>
+                        <td><button class="btn-aumentar">Da clic aqui para añadir</button>
+                            <button class="btn-disminuir">Da clic aqui para quitar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CREMA DULCE DE LIMON</td>
+                        <td>$8.000</td>
+                        <td>Limones frescos, crema de la casa, crema de leche, cerezas, harina especial, esencia de
+                            vainilla</td>
+                        <td class="cantidad">0</td>
+                        <td><button class="btn-aumentar">Da clic aqui para añadir</button>
+                            <button class="btn-disminuir">Da clic aqui para quitar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>TORTA DE LIMON</td>
+                        <td>$12.000</td>
+                        <td>Harina de avena, levadura, naranja limon, arandanos, crema tres leches</td>
+                        <td class="cantidad">0</td>
+                        <td><button class="btn-aumentar">Da clic aqui para añadir</button>
+                            <button class="btn-disminuir">Da clic aqui para quitar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ARROZ CON LECHE</td>
+                        <td>$14.500</td>
+                        <td>Arroz el costal, leche descremada deslactosada, pasas, coco, quedo cuajada, crema de leche,
+                            leche condensada</td>
+                        <td class="cantidad">0</td>
+                        <td><button class="btn-aumentar">Da clic aqui para añadir</button>
+                            <button class="btn-disminuir">Da clic aqui para quitar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>TORTA DE TRES LECHES</td>
+                        <td>$16.800</td>
+                        <td>Leche entera, crema de leche, leche condensada, hariana de almendras, leche klim, esencia de
+                            vainilla</td>
+                        <td class="cantidad">0</td>
+                        <td><button class="btn-aumentar">Da clic aqui para añadir</button>
+                            <button class="btn-disminuir">Da clic aqui para quitar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="java.js"></script>
+
+    <script>
+        // Selecciona todos los botones
+        const botones = document.querySelectorAll('.btn-aumentar');
+
+        botones.forEach(boton => {
+            boton.addEventListener('click', () => {
+                // Encuentra la celda de cantidad en la misma fila
+                const fila = boton.closest('tr');
+                const cantidadCelda = fila.querySelector('.cantidad');
+                let cantidadActual = parseInt(cantidadCelda.textContent);
+                cantidadCelda.textContent = cantidadActual + 1; // aumenta en 1
+            });
+        });
+    </script>
+
+    <script>
+        // Selecciona todos los botones
+        const botoness = document.querySelectorAll('.btn-disminuir');
+
+        botoness.forEach(boton => {
+            boton.addEventListener('click', () => {
+                // Encuentra la celda de cantidad en la misma fila
+                const fila = boton.closest('tr');
+                const cantidadCelda = fila.querySelector('.cantidad');
+                let cantidadActual = parseInt(cantidadCelda.textContent);
+                cantidadCelda.textContent = cantidadActual - 1; // aumenta en 1
+            });
+        });
+    </script>
+
+</body>
+
+</html>
