@@ -10,7 +10,8 @@ Mi objetivo es construir mi portafolio profesional como Front-End, QA Manual y A
 
 - **HTML5** → estructura del sitio  
 - **CSS3** → estilos y colores pastel ✨  
-- **JavaScript** → botones interactivos como aumentar/restar cantidades  
+- **JavaScript** → botones interactivos como aumentar/restar cantidades
+- **Bootstrap**
 - **Git & GitHub** → control de versiones y despliegue del proyecto
 
 ---
@@ -44,6 +45,7 @@ Mi objetivo es construir mi portafolio profesional como Front-End, QA Manual y A
 ## 💗 Acerca de mí
 
 Soy Laura Daniela Santa Correa, estudiante de Front-End, QA y Automation.  
+Tengo experiencia en el sector bancario
 Este proyecto es parte de mi proceso para construir mi portafolio profesional en GitHub.  
 Estoy practicando HTML, CSS, JavaScript y Git por primera vez. 🌸
 
